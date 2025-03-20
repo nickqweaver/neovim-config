@@ -3,6 +3,7 @@ return {
 	dependencies = {
 		"williamboman/mason-lspconfig.nvim",
 		"WhoIsSethDaniel/mason-tool-installer.nvim",
+		"elixir-editors/vim-elixir",
 	},
 	config = function()
 		-- import mason
@@ -37,6 +38,7 @@ return {
 				"emmet_ls",
 				"prismals",
 				"pyright",
+				"elixirls",
 			},
 		})
 
